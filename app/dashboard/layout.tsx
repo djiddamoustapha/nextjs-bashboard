@@ -1,4 +1,7 @@
+import { tree } from "next/dist/build/templates/app-page";
 import SideNav from "../ui/dashboard/sidenav";
+
+export const experimental_ppr = true;
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
